@@ -1,0 +1,44 @@
+body{
+    display: flex;
+    background-color: rgb(80,80,80);
+    color: aliceblue; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2ex;
+    border: black;
+    border-radius: 200ex;
+    background-color: rgb(40,40,40);;
+    color: white;
+    width: 10ex;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+#imagem{
+    display: flex;
+    flex-direction: column;
+}
+button:hover{
+    background-color: rgb(136, 136, 136);
+}
+.tudo{
+    display: flex;
+    flex-direction: column;
+
+}
+.Boku_no_Hero{
+    display: flex;
+    flex-direction: column;
+}
+.Naruto{
+    display: flex;
+    flex-direction: column;
+}
+.Dragao_Ball_Z{
+    display: flex;
+    flex-direction: column;
+}
